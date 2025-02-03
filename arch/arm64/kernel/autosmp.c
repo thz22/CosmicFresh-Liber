@@ -47,7 +47,7 @@ static struct notifier_block asmp_nb;
 /*
  * Flag and NOT editable/tunabled
  */
-static bool started = false;
+static bool started = true;
 
 static struct asmp_param_struct {
     unsigned int delay;
