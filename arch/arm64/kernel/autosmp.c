@@ -65,7 +65,7 @@ static struct asmp_param_struct {
 } asmp_param = {
     .delay = 1, // looks like .delay parameter 100 is work efficient for old device, change it to 1 ms
     .scroff_single_core = true,
-    .max_cpus_bc = 3, /* Max cpu Big cluster ! */
+    .max_cpus_bc = 4, /* Max cpu Big cluster ! */
     .max_cpus_lc = 4, /* Max cpu Little cluster ! */
     .min_cpus_bc = 0, /* Minimum Big cluster online */
     .min_cpus_lc = 2, /* Minimum Little cluster online */
